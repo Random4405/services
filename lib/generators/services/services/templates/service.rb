@@ -1,8 +1,6 @@
 <% module_namespacing do -%>
 module Services
-  class <%= class_name %>
-    include Service
-
+  class <%= class_name %> < Services::Base
     def call
       # You actions here
     end

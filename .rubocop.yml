@@ -2,6 +2,7 @@ AllCops:
   Exclude:
     - 'lib/generators/services/services/templates/service.rb'
     - 'bin/**/*'
+    - 'vendor/**/*'
 
 Style/Documentation:
   Enabled: false

@@ -8,6 +8,12 @@ module Services
       def copy_initializer_file
         copy_file "service.rb", "app/services/service.rb"
       end
+
+      def add_autoload_path
+        inject_into_file 'config/application.rb', after: "class Application < Rails::Application\n" do
+          '    config.autoload_paths += Dir[Rails.root.join("app", "services", "**", "*.rb")]' + "\n"
+        end
+      end
     end
   end
 end

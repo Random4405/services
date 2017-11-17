@@ -1,6 +1,6 @@
 # Services [![Build Status](https://travis-ci.org/Random4405/services.svg?branch=master)](https://travis-ci.org/Random4405/services)
 
-Small services layer for your RoR applications
+Small services layer for your Ruby on Rails applications
 
 ## Installation
 

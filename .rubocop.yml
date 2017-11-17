@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - 'lib/generators/services/services/templates/service.rb'
+    - 'bin/**/*'
+
+Style/Documentation:
+  Enabled: false
